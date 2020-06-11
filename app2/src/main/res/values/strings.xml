@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App2</string>
+    <string name="etama_1">etama1</string>
+    <string name="etama_2">etama2</string>
+    <string name="etama_3">etama3</string>
+    <string name="etama_4">etama4</string>
+    <string name="etama_5">etama5</string>
+    <string name="etama_6">etama6</string>
+    <string name="etama_7">etama7</string>
+    <string name="etama_8">etama8</string>
+    <string name="etama_9">etama9</string>
+    <string name="etama_10">etama10</string>
+</resources>

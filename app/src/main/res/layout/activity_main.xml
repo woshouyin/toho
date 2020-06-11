@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bkg"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/ipText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF0000"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/calcOutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="CALC"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF0000" />
+
+
+    <EditText
+        android:id="@+id/calcInText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/calcOutText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FAB004"
+        android:layout_centerInParent="true"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/text"
+        android:layout_marginTop="30pt"
+        android:layout_marginLeft="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.076"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.693"
+                app:srcCompat="@mipmap/fire" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="73dp"
+                android:layout_height="73dp"
+                app:srcCompat="@mipmap/fire" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="73dp"
+                android:layout_height="73dp"
+                app:srcCompat="@mipmap/fire" />
+
+            <ImageView
+                android:id="@+id/ei"
+                android:layout_width="73dp"
+                android:layout_height="73dp"
+                app:srcCompat="@mipmap/ei" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonIce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ice"
+                app:layout_constraintVertical_bias="0.8" />
+
+
+            <Button
+                android:id="@+id/buttonThunder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thunder"
+                app:layout_constraintVertical_bias="0.8" />
+
+            <Button
+                android:id="@+id/buttonFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fire"
+                app:layout_constraintVertical_bias="0.8" />
+
+            <ProgressBar
+                android:id="@+id/coldDown"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintVertical_bias="0.783" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

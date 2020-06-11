@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">卡尔模拟器</string>
+    <string name="ice">冰</string>>
+    <string name="thunder">雷</string>
+    <string name="fire">火</string>
+    <string name="skill1">赛卓昂的无尽战栗</string>
+    <string name="skill2">米瑞特之阻碍</string>
+    <string name="skill3">科瑞克斯的杀戮之墙</string>
+    <string name="skill4">托那鲁斯之爪</string>
+    <string name="skill5">卡尔维因的至邪造物</string>
+    <string name="skill6">盖斯特的猛战号令</string>
+    <string name="skill7">加拉隆的深渊之核</string>
+    <string name="skill8">哈雷克之火葬魔咒</string>
+    <string name="skill9">席美尔的精华脉冲</string>
+    <string name="skill10">布鲁冯特之无力声波</string>
+    <string name="kerror">咒语记得混了？</string>
+    <string name="noSkill">咒语记混了?</string>
+    <string name="action1">卡尔模拟器</string>
+    <string name="action2">列表</string>
+    <string name="action3">计算器</string>
+    <string name="action4">网络</string>
+    <string name="tcp">TCP</string>
+    <string name="udp">UDP</string>
+    <string name="hostname">服务器地址</string>
+    <string name="server_port">服务器端口</string>
+    <string name="local_port">本地端口</string>
+    <string name="connect_set">连接设置</string>
+    <string name="connect">连接</string>
+    <string name="send">发送</string>
+</resources>

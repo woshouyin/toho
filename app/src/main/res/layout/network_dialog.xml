@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/labelHostname"
+        android:text="@string/hostname"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <EditText
+        android:id="@+id/hostnameIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/labelServerPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server_port" />
+
+    <EditText
+        android:id="@+id/serverPortIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/labelLocalPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/local_port" />
+
+    <EditText
+        android:id="@+id/localPortIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+</LinearLayout>
